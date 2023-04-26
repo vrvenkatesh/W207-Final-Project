@@ -1,0 +1,9 @@
+Team: Video Game Success
+•	Title, Authors: yes
+•	(15%) Motivation: slides background is a game (nice!); for motivation, add some stats/citations (e.g., market potential)
+•	(15%) Data: some slides are a bit crowded, hard to focus on the main information; add some stats about the review text column (e.g., length)
+•	(15%) Approach: a couple of baselines (good); DNN introduced as improvement (nice). 
+•	(30%) Experiments: used Warrnier and Vader as a sentiment analyzer (I’ve never heard about it and likely many others in class – would be nice to provide some background). Did these sentiment analyzers use the categorical features? Used Embedding models using review text. Test does better than validation in many cases (interesting, wondering if the team shuffled the data before splitting). Tried a binary classification task as well (it’s not clear what features they use for the LR, FFNN)l tried embeddings as well (clearly, they used the review text for this task).
+•	(10%) Conclusions: LR did well. Improve by doing transfer learning and/or fused models.
+•	(15%) Code submission: yes, very well commented and organized code (I like that you add numbering to your notebooks, this is super useful for someone that reads your code)
+•	Contributions: No
